@@ -11,9 +11,25 @@ body {
   box-sizing: border-box;
 }
 a.active {
-  color: gray !important;
+  color: rgb(91, 91, 91) !important;
 }
+.lenis {
+  &.lenis-smooth {
+    scroll-behavior: auto;
 
+    [data-lenis-prevent] {
+      overscroll-behavior: contain;
+    }
+  }
+  &.lenis-scrolling {
+    iframe {
+      pointer-events: none;
+    }
+  }
+  &.lenis-stopped {
+    overflow: hidden;
+  }
+}
 // task
 .chakra-input {
   border: 0 !important;
@@ -63,52 +79,3 @@ a.active {
     display: none;
   }
 }
-// card/////////////////
-// .container {
-//   background-color: #b60cff;
-//   padding: 40px;
-//   border-radius: 10px;
-//   display: grid;
-//   grid-template-columns: repeat(2, minmax(0, 1fr));
-//   grid-template-rows: repeat(2, minmax(0, 1fr));
-//   gap: 10px;
-
-//   .card {
-//     padding: 8px;
-//     border-radius: 10px;
-//     display: grid;
-//     grid-template-rows: repeat(2, minmax(0, 1fr));
-//     background-color: gray;
-//   }
-// }
-// .modal {
-//   height: 50dvh;
-//   width: 50vw;
-//   top: 50%;
-//   left: 50%;
-//   background-color: gray;
-//   .overlay {
-//     background-color: #b60bff78;
-//     height: 100dvh;
-//     width: 100vw;
-//     z-index: 4;
-//     position: absolute;
-//   }
-// }
-// .lenis {
-//   &.lenis-smooth {
-//     scroll-behavior: auto;
-
-//     [data-lenis-prevent] {
-//       overscroll-behavior: contain;
-//     }
-//   }
-//   &.lenis-scrolling {
-//     iframe {
-//       pointer-events: none;
-//     }
-//   }
-//   &.lenis-stopped {
-//     overflow: hidden;
-//   }
-// }

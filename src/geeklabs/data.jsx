@@ -1,22 +1,22 @@
 const filters_data = {
   industry: [
     [
-      { icon: "public/task/filters/icon1.svg", label: "Helath Care" },
-      { icon: "public/task/filters/icon1.svg", label: "Materials" },
-      { icon: "public/task/filters/icon1.svg", label: "Energy" },
+      { icon: "task/filters/icon1.svg", label: "Helath Care" },
+      { icon: "task/filters/icon1.svg", label: "Materials" },
+      { icon: "task/filters/icon1.svg", label: "Energy" },
       {
-        icon: "public/task/filters/icon1.svg",
+        icon: "task/filters/icon1.svg",
         label: "Consumer Discretionary",
       },
-      { icon: "public/task/filters/icon1.svg", label: "Consumer Staples" },
-      { icon: "public/task/filters/icon1.svg", label: "Real Estate" },
+      { icon: "task/filters/icon1.svg", label: "Consumer Staples" },
+      { icon: "task/filters/icon1.svg", label: "Real Estate" },
     ],
     [
-      { icon: "public/task/filters/icon1.svg", label: "IT" },
-      { icon: "public/task/filters/icon1.svg", label: "Communication" },
-      { icon: "public/task/filters/icon1.svg", label: "Industials" },
-      { icon: "public/task/filters/icon1.svg", label: "Utilities" },
-      { icon: "public/task/filters/icon1.svg", label: "Financials" },
+      { icon: "task/filters/icon1.svg", label: "IT" },
+      { icon: "task/filters/icon1.svg", label: "Communication" },
+      { icon: "task/filters/icon1.svg", label: "Industials" },
+      { icon: "task/filters/icon1.svg", label: "Utilities" },
+      { icon: "task/filters/icon1.svg", label: "Financials" },
     ],
   ],
   radio: [
@@ -29,24 +29,24 @@ const filters_data = {
   ],
 };
 const sidebar_data = [
-  { icon: "public/task/side bar/alerts.svg", label: "alerts", available: true },
+  { icon: "task/side bar/alerts.svg", label: "alerts", available: true },
   {
-    icon: "public/task/side bar/training.svg",
+    icon: "task/side bar/training.svg",
     label: "training",
     available: true,
   },
   {
-    icon: "public/task/side bar/automation.svg",
+    icon: "task/side bar/automation.svg",
     label: "automation",
     available: false,
   },
   {
-    icon: "public/task/side bar/portfolio.svg",
+    icon: "task/side bar/portfolio.svg",
     label: "portfolio",
     available: false,
   },
   {
-    icon: "public/task/side bar/trading.svg",
+    icon: "task/side bar/trading.svg",
     label: "trading",
     available: false,
   },

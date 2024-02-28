@@ -1,5 +1,5 @@
 import InternshipTask from "./geeklabs/InternshipTask";
-
+import ParallaxScroll from "./ParallaxScroll"
 function App() {
   //   const ppl = [
   //     { name: "ali", age: 69 },
@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <InternshipTask />
+      <ParallaxScroll/>
     </>
   );
 }
