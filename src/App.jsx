@@ -1,5 +1,6 @@
 import InternshipTask from "./geeklabs/InternshipTask";
 import ParallaxScroll from "./ParallaxScroll"
+import ScrollxSlider from "./ScrollxSlider"
 function App() {
   //   const ppl = [
   //     { name: "ali", age: 69 },
@@ -7,19 +8,20 @@ function App() {
   //     { name: "osa", age: 99 },
   //   ];
   //   const adultONly = ({age}) => {
-  //     if (age > 50) {
+  //     if (age > 69) {
   //       return "adule";
   //     } else {
   //       return "kid";
   //     }
   //   };
-  // const bigPpl=Object.groupBy(ppl,adultONly)
-  //   console.log(bigPpl)
+  // const oldPpl=Object.groupBy(ppl,adultONly)
+  //   console.log(oldPpl)
 
   return (
     <>
       <InternshipTask />
       <ParallaxScroll/>
+      <ScrollxSlider/>
     </>
   );
 }
