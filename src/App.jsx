@@ -1,6 +1,7 @@
 import InternshipTask from "./geeklabs/InternshipTask";
-import ParallaxScroll from "./ParallaxScroll"
-import ScrollxSlider from "./ScrollxSlider"
+import ParallaxScroll from "./ParallaxScroll";
+import ScrollxSlider from "./ScrollxSlider";
+import LayoutIdCard from "./LayoutIdCard";
 function App() {
   //   const ppl = [
   //     { name: "ali", age: 69 },
@@ -20,8 +21,9 @@ function App() {
   return (
     <>
       <InternshipTask />
-      <ParallaxScroll/>
-      <ScrollxSlider/>
+      <ParallaxScroll />
+      <ScrollxSlider />
+      <LayoutIdCard />
     </>
   );
 }
