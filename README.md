@@ -1,6 +1,6 @@
 #this repo contains random and diffrent stuff that i learned : https://osama263.github.io/random/
 
--Intership task for a jop (spoilters..they didnt hire me)
+-Intership task for a job (spoilers..they didnt hire me)
 
 -slides images from diffrent Y position when u scroll
 
