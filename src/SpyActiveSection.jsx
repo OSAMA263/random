@@ -71,5 +71,5 @@ h-[2px]
 bg-black
 `;
 
-const navbarLinks = ["home", "a long navlink", "about", "restroom"];
+const navbarLinks = ["home", "end me", "about", "restroom"];
 const bgs = ["bg-gray-200", "bg-gray-400", "bg-gray-600", "bg-gray-700"];

@@ -3,6 +3,7 @@ import ParallaxScroll from "./ParallaxScroll";
 import ScrollxSlider from "./ScrollxSlider";
 import LayoutIdCard from "./LayoutIdCard";
 import SpyActiveSection from "./SpyActiveSection";
+import RevealSectionsScroll from "./RevealSectionsScroll";
 function App() {
   //   const ppl = [
   //     { name: "ali", age: 69 },
@@ -22,6 +23,7 @@ function App() {
   return (
     <>
       {/* <Huh /> */}
+      <RevealSectionsScroll/>
       <InternshipTask />
       <ParallaxScroll />
       <ScrollxSlider />
