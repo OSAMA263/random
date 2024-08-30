@@ -1,0 +1,15 @@
+@media (300px <=width <=600px) {
+  body {
+    background-color: black;
+  }
+}
+.container {
+  background-image: "url...";
+  background-repeat: "space no repeat"; /*resize it now*/
+}
+/* mix-blend-mode imgs with diffrent height  */
+.img {
+  aspect-ratio: 3/2;
+  object-fit: "contain";
+  /*mix-blend-mode*/
+}

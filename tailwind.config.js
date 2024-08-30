@@ -9,7 +9,7 @@ export default {
         "light-blue": "#53acff",
         "dark-orange": "#D94111",
         green: "#118F4B",
-        "black-ish":"#181818"
+        "black-ish": "#181818",
       },
     },
   },

@@ -18,7 +18,7 @@ export default function Filters() {
         {/* selected filter options */}
         <div>
           <h5 className="flex justify-between">
-            <span className="textwhite">Filters Applied</span>
+            <span className="text-white">Filters Applied</span>
             <button>Clear All</button>
           </h5>
           <div className="rounded-md mt-2 bg-dark-gray gap-2 flex flex-wrap p-2 min-h-[50px]">

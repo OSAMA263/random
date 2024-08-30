@@ -14,7 +14,7 @@ export default function ScrollxSlider() {
     <>
       <div className="h-[400vh] bg-gray-200" ref={containerRef}>
         <div className="h-screen sticky top-0 bg-gray-700 overflow-hidden flex items-center justify-center">
-          <motion.div style={{ x: x }} className="flex gap-10 w-full">
+          <motion.div style={{ x }} className="flex gap-10 w-full">
             {slider.map((_, i) => (
               <div
                 className="flex rounded-3xl overflow-hidden text-white justify-center items-center h-96 min-w-[600px] bg-black"

@@ -1,29 +1,32 @@
-import {  useRef } from "react";
+import { useRef } from "react";
 import tw from "tailwind-styled-components";
 import { motion, useTransform, useScroll } from "framer-motion";
-import { ReactLenis } from '@studio-freight/react-lenis'
-import Img1 from "/img1.jpg"
-import Img2 from "/img2.jpg"
-import Img3 from "/img3.jpg"
-import Img4 from "/img4.jpg"
+import { ReactLenis } from "@studio-freight/react-lenis";
+import Img1 from "/img1.jpg";
+import Img2 from "/img2.jpg";
+import Img3 from "/img3.jpg";
+import Img4 from "/img4.jpg";
 
 export default function ParallaxScroll() {
   const containerRef = useRef();
-  const { scrollYProgress } = useScroll({ target: containerRef,offset:["0 1","1 0"] });
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["0 1", "1 0"],
+  });
 
   return (
     <ReactLenis root>
       <div className="h-screen bg-gray-300"></div>
       <div ref={containerRef} className="h-[200vh] bg-gray-800">
-          <GridWrapper>
-            {images.map(({ imgs, scrollY }, i) => (
-              // COLUMN
-              <GridColumn
-                key={i + "column"}
-                {...{ imgs, scrollY, scrollYProgress }}
-              />
-            ))}
-          </GridWrapper>
+        <GridWrapper>
+          {images.map(({ imgs, scrollY }, i) => (
+            // COLUMN
+            <GridColumn
+              key={i + "column"}
+              {...{ imgs, scrollY, scrollYProgress }}
+            />
+          ))}
+        </GridWrapper>
       </div>
       <div className="h-screen bg-gray-300"></div>
     </ReactLenis>
@@ -35,7 +38,9 @@ const GridColumn = ({ imgs, scrollYProgress, scrollY }) => {
   return (
     <motion.div style={{ y }} className="space-y-10 h-fit">
       {imgs.map((src, j) => (
-        <Card key={j + "card"}><img src={src} alt={src} className="w-full h-full object-center"/></Card>
+        <Card key={j + "card"}>
+          <img src={src} alt={src} className="w-full h-full object-center" />
+        </Card>
       ))}
     </motion.div>
   );
@@ -62,5 +67,5 @@ const images = [
   { imgs: [Img1, Img2], scrollY: ["-30%", "0%"] },
   { imgs: [Img3, Img4, Img1], scrollY: ["0%", "-60%"] },
   { imgs: [Img2, Img3, Img2, Img4], scrollY: ["-80%", "20%"] },
-  { imgs: [Img4,Img1], scrollY: ["10%", "-40%"] },
+  { imgs: [Img4, Img1], scrollY: ["10%", "-40%"] },
 ];

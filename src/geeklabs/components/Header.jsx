@@ -15,6 +15,7 @@ export default function Header() {
       <InputGroup>
         <InputRightElement><img src={SearchIcon} alt={SearchIcon} /></InputRightElement>
         <Input
+        _focusVisible={{borderColor:"gray"}}
           color="white"
           placeholder="Search By..."
           _placeholder={{ color: "white" }}
