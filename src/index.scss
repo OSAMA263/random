@@ -80,3 +80,14 @@ a.active {
     display: none;
   }
 }
+.sup {
+  &::before {
+    content: "";
+    display: flex;
+    margin-inline: auto;
+    width: 80%;
+    height: 200px;
+    background: linear-gradient(to top, #f2f0ea 75%, transparent 100%);
+    top: 0;
+  }
+}

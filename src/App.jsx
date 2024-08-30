@@ -6,6 +6,8 @@ import SpyActiveSection from "./SpyActiveSection";
 import React19 from "./React19";
 import tw from "tailwind-styled-components";
 import { useTransform } from "framer-motion";
+import RevealSectionsScroll from "./RevealSectionsScroll";
+
 function App() {
   //   const ppl = [
   //     { name: "ali", age: 69 },
@@ -24,7 +26,6 @@ function App() {
   return (
     <>
       {/* <Huh /> */}
-      {/* <React19/> */}
       <InternshipTask />
       <ParallaxScroll />
       <ScrollxSlider />
