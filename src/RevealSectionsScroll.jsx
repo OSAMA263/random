@@ -25,7 +25,7 @@ export default function RevealSectionsScroll() {
               key={"text" + i}
             >
               {/* overlay div */}
-              <div className="sup absolute w-full bottom-0 z-50"></div>
+              <div className="sup"/>
               {/* content text */}
               <div className="absolute h-dvh w-full flex items-cneter bg-[#f2f0ea]">
                 <div className="h-full w-1/2 divide-y mx-auto flex flex-col items-center justify-center gap-32 text-center">
@@ -72,7 +72,7 @@ const TransformAnimation = (props) => {
 
   const height = useTransform(
     scrollYProgress,
-    containerOffset ?? [0, 0] /*just a default value */,
+    containerOffset ?? [0, .25] /*just a default value */,
     i === 0 ? ["100%", "100%"] : ["100%", "0%"]
     // if its the last image then dont change the height
   );
@@ -155,6 +155,7 @@ const data = {
     },
   ],
   text: [
+    { containerOffset: [0, 0] },
     { containerOffset: [0.75, 1] },
     { containerOffset: [0.5, 0.75] },
     { containerOffset: [0.25, 0.5] },

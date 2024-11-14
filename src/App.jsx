@@ -26,6 +26,7 @@ function App() {
   return (
     <>
       {/* <Huh /> */}
+      <RevealSectionsScroll/>
       <InternshipTask />
       <ParallaxScroll />
       <ScrollxSlider />

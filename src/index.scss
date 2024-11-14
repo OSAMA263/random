@@ -81,6 +81,10 @@ a.active {
   }
 }
 .sup {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 50;
   &::before {
     content: "";
     display: flex;
@@ -88,6 +92,5 @@ a.active {
     width: 80%;
     height: 200px;
     background: linear-gradient(to top, #f2f0ea 75%, transparent 100%);
-    top: 0;
   }
 }
