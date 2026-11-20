@@ -2,7 +2,7 @@
 
 -reveal images an text onscroll or something
 
--a scam task for a job
+-a scam task for a job (actually)
 
 -slides images from diffrent Y position when u scroll
 
